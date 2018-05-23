@@ -19,14 +19,14 @@ $('#r').click(function(){
 
   //social share buttons
 
-          $("#facebook-share").click(function(){
-            console.log("Facebook share button clicked");
-          })
+  $("#facebook-share").click(function(){
+    console.log("Facebook share button clicked");
+  })
 
-          $("#twitter-share").click(function(){
-            console.log("Twitter share button clicked");
-          })
+  $("#twitter-share").click(function(){
+    console.log("Twitter share button clicked");
+  })
 
-          $("#email-share").click(function(){
-            console.log("Email share button clicked");
-          })
+  $("#email-share").click(function(){
+    console.log("Email share button clicked");
+  })

@@ -77,3 +77,13 @@ p {
     font-size: 16px;
     font-weight: 300px;
 }
+.black {
+    background-color:#343434;
+}
+.white {
+    color: #fff;
+}
+a {
+    color: #0098d1;
+    text-decoration: none;
+}

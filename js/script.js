@@ -22,20 +22,30 @@ var config = {
  
   });
 
+$('#r').click(function(){
+  $('r').click(function(event){
+    event.preventDefault();
+  })
+  $('body').toggleClass('black');
+  $('p').toggleClass('white');
+  $('h1').toggleClass('white');
+})
+
+
 
   //social share buttons
 
-          $("#facebook-share").click(function(){
-            console.log("Facebook share button clicked");
-          })
+          // $("#facebook-share").click(function(){
+          //   console.log("Facebook share button clicked");
+          // })
 
-          $("#twitter-share").click(function(){
-            console.log("Twitter share button clicked");
-          })
+          // $("#twitter-share").click(function(){
+          //   console.log("Twitter share button clicked");
+          // })
 
-          $("#email-share").click(function(){
-            console.log("Email share button clicked");
-          })
+          // $("#email-share").click(function(){
+          //   console.log("Email share button clicked");
+          // })
 
 
   // })

@@ -14,5 +14,7 @@ angular
 .config(function($urlRouterProvider){
 	console.log('app.js is loading')
   $urlRouterProvider.otherwise('/');
-})
+});
+
+
 

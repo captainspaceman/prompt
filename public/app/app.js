@@ -1,3 +1,4 @@
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyASBKD0OhoeLj5PxVSPCcNhJ2m2eL2HKjo",
@@ -15,6 +16,4 @@ angular
 	console.log('app.js is loading')
   $urlRouterProvider.otherwise('/');
 });
-
-
-
+//the code above works

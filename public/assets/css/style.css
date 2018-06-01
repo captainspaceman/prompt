@@ -53,7 +53,8 @@ p {
 
 #ideaBox {
     width: 750px;
-    height: 200px;
+    min-height: 250px;
+    height: 100%;
     background-color: #ffffff;
     border: dashed 1px #c2c2c2;
     float:left;
@@ -77,17 +78,17 @@ p {
     font-size: 16px;
     font-weight: 300px;
 }
-.black {
+.dark {
     background-color:#343434;
 }
-.white {
-    color: #fff;
+.light {
+    color: #ffffff;
 }
 a {
     color: #0098d1;
     text-decoration: none;
 }
 
-.r {
+.space-block-1 {
     margin-top: 10%;
 }

@@ -1,4 +1,4 @@
-<body>
+<body class="dark">
     <div id ="wrapper">
         <header></header>
 
@@ -7,15 +7,22 @@
 
 
 
-                            <div id="ideaBox" data-lorem="1p">
+                            <div id="ideaBox">
+
+                                <!-- <div id="ideaBox" ng-repeat="client in clients">{{client.name}} -->
+                           
 
                                 <h5>Why don't you write about...</h5>
 
-                </div>
+                                <p>
+                                    {{joke ||'...'}}
+                                </p>
 
-                <div>
+                            </div>
 
-                            <button id="submitButton">I Asked For This</button>  
+                            <div>
+
+                            <button ng-click="submitButton()" class="btn btn-info" id="submitButton">Gimme an Idea</button>  
 
                                         <div id="share-buttons" class="right">
                                         
@@ -24,9 +31,9 @@
                                             <img id="email-share"  class="inline" src="../assets/images/email.png">
                                         </div>
                 </div>
-
-                <p class="r"><a href="#" id="r" >Go back</a> to the shallow end of the pool.</p>
-
+            <div class="space-block-1">
+                <p><a href="#" id="light" >Go back</a> to the shallow end of the pool.</p>
+            </div>
                
 </div>
 </body>

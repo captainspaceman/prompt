@@ -8,27 +8,32 @@
 
 
 
-                            <div id="ideaBox" data-lorem="1p">
+                            <div id="ideaBox">
 
                                 <!-- <div id="ideaBox" ng-repeat="client in clients">{{client.name}} -->
                            
 
                                 <h5>Why don't you write about...</h5>
 
+                                <p>
+                                    {{joke ||'...'}}
+                                </p>
+
                             </div>
 
                             <div>
 
-                            <button id="submitButton">Gimme an Idea</button>  
+                            <button ng-click="submitButton()" class="btn btn-info" id="submitButton">Gimme an Idea</button>  
 
                                         <div id="share-buttons" class="right">
                                             <img id="facebook-share"  class="inline" src="../assets/images/facebook.png">
                                             <img id="twitter-share"  class="inline" src="../assets/images/twitter.png">
                                             <img id="email-share"  class="inline" src="../assets/images/email.png">
                                         </div>
-                </div>
-
-                <p class="r"><a id="r" ui-sref="dark">Click here</a> to view the "dark" version.</p>
+                            </div>
+            <div class="space-block-1">
+                <p><a id="dark" ui-sref="dark">Click here</a> to view the "dark" version.</p>
+            </div>
 
 <!--Wrapper restricts max width of the content to a max of 650px-->
     </div>

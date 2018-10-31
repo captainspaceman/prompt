@@ -6,4 +6,4 @@ Also includes a "dark" version with somewhat messed up ideas, because everyone i
 
 Thanks to [Lorem.js](https://github.com/f/loremjs) for the starter code
 
-See the product in progress at [Randomprompt.com](https://randomprompt.com/_
+See the product in progress at [Randomprompt.com](https://randomprompt.com)
